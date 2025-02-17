@@ -1,5 +1,6 @@
 from django import forms
 from account.models import User
+from django.contrib.auth.forms import PasswordChangeForm
 
 class RegistertionForm(forms.ModelForm):
     password = forms.CharField(label='Password', widget=forms.PasswordInput(attrs={'class': 'form-control'}))
@@ -39,7 +40,7 @@ class CustomLoginForm(forms.Form):
     }))
 
 
-from django.contrib.auth.forms import PasswordChangeForm
+
 
 class CustomPasswordChangeForm(PasswordChangeForm):
     old_password = forms.CharField(

@@ -71,6 +71,4 @@ Feel free to fork this repository, raise issues, or contribute by creating pull 
 ## License
 This project is licensed under the MIT License.
 
----
-Let me know if you need any modifications!
 
