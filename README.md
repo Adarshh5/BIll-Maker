@@ -1,5 +1,6 @@
 # BillMaker - A Simple Billing Solution for Small Businesses
 
+[![Demo Video](https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge)](https://drive.google.com/file/d/1hysE_kYDUdOaMxZCQloG7jFZAg9MSkQH/view?usp=sharing)
 ## Overview
 BillMaker is a Django-based web application designed to help small business owners generate and manage bills efficiently. Users can add shop details, create multiple bills, apply discounts, generate PDF invoices, and track past bills. The system also includes authentication, password reset functionality, and email verification using MailTrap.
 
@@ -65,10 +66,5 @@ BillMaker is a Django-based web application designed to help small business owne
 - Deploy on AWS using S3 for static file storage.
 - Use a cloud database for scalability.
 
-## Contributing
-Feel free to fork this repository, raise issues, or contribute by creating pull requests.
 
-## License
-This project is licensed under the MIT License.
-
-
+  
